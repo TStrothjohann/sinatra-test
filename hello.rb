@@ -12,6 +12,7 @@ end
 
 get '/secret' do
 	'This is a secret page'
+  erb :index
 end
 
 get '/hello_again' do
