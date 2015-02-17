@@ -4,6 +4,6 @@ get '/' do
   'hello'
 end
 
-get '/secrets' do
-  'This is a secret page'
+get '/secret' do
+  'This is a cool page'
 end    
