@@ -1,4 +1,9 @@
 <div style='border: 3px dashed red'>
-	Hello, my name is <%= @name %>
+	<% if @visitor %>
+		Hello, <%= @visitor %>!
+	<% end %>		
+	<% if @name %>
+		Hello, my name is <%= @name %>
+	<% end %>	
   <img src='http://bit.ly/1eze8aE'>
 </div>
